@@ -33,8 +33,8 @@ function iniciar() {
         if (sorteio.length > 0) {
             ul.innerHTML += `
                 <li class="list-group-item bg-light font-weight-bold">
-                   [ ${sorteio.length} ] - Numeros Sorteados 
-                    ${sorteio.join(' - ')}
+                   ${sorteio.length} Numeros Sorteados - [
+                    ${sorteio.join(' - ')} ]
                     </li>`            
         } else {
              ul.innerHTML += `
