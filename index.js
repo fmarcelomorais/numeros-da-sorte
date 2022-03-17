@@ -42,7 +42,7 @@ function iniciar() {
                    Sorteando numeros.....
                     </li>`      
         }
-    }, 1 * 100)
+    }, 1 * 10)
     
 }
     
