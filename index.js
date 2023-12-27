@@ -5,12 +5,12 @@ function sortearNumeros() {
     const numerosSorteados = []
     const numerosDiferentes = []
     const retornoZero =  []
-    while (numerosSorteados.length <= 24) {
-        numerosSorteados.push(Math.floor(Math.random() * 25) + 1)
+    while (numerosSorteados.length <= 5) {
+        numerosSorteados.push(Math.floor(Math.random() * 5) + 1)
     }    
     
     numerosDiferentes.push(...new Set(numerosSorteados))
-    if(numerosDiferentes.length > 14 ) {
+    if(numerosDiferentes.length > 5 ) {
         let ordenar = (a, b) => a - b
         teste = 1
         return numerosDiferentes.sort(ordenar)     
