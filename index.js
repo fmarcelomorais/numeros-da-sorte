@@ -5,8 +5,8 @@ function sortearNumeros() {
     const numerosSorteados = []
     const numerosDiferentes = []
     const retornoZero =  []
-    while (numerosSorteados.length <= 5) {
-        numerosSorteados.push(Math.floor(Math.random() * 5) + 1)
+    while (numerosSorteados.length <= 60) {
+        numerosSorteados.push(Math.floor(Math.random() * 60) + 1)
     }    
     
     numerosDiferentes.push(...new Set(numerosSorteados))
